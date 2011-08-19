@@ -1,0 +1,18 @@
+#fs_navprev {
+	background: #333 url('nav_prev.png') no-repeat center center;
+}
+
+#fs_navnext {
+	background: #333 url('nav_next.png') no-repeat center center;
+}
+
+#fs_navfull {
+	background: #333 url('nav_fullsize.png') no-repeat center center;
+}
+
+#fs_navfullcancel {
+	background: #333 url('nav_fullsize_cancel.png') no-repeat center center;}
+
+#fs_navclose {
+	background: #333 url('nav_close.png') no-repeat center center;
+}

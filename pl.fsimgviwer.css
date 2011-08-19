@@ -1,0 +1,79 @@
+#fs_loader.fs_loading {
+	width: 32px;
+	height: 32px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+  	background: url('ajax-loader.gif') no-repeat center center;
+}
+
+#fs_viewwrap {
+	display: none;
+	text-align:center;
+	position:absolute;
+	z-index:1;
+	background:#111;
+	width:100%;
+	height:100%;
+	content:".";
+	overflow:hidden;
+}
+
+#fs_viewwrap #fs_container {
+	position:absolute;
+	top:0;
+	left:0;
+}
+
+#fs_container .fs_image {
+	margin: auto;
+}
+
+#fs_navprev {
+	position:absolute;
+	left:10px;
+	top: 50%;
+	width:52px;
+	height:99px;
+	background: rgba(17,17,17,0.3) url('nav_prev.png') no-repeat center center;
+	display: block;
+}
+
+#fs_navnext {
+	position:absolute;
+	right:10px;
+	top: 50%;
+	width:52px;
+	height:99px;
+	background: rgba(17,17,17,0.3) url('nav_next.png') no-repeat center center;
+	display: block;
+}
+
+#fs_navfull {
+	position:absolute;
+	right:10px;
+	top: 91px;
+	width:80px;
+	height:80px;
+	background: rgba(17,17,17,0.3) url('nav_fullsize.png') no-repeat center center;
+	display: block;
+}
+
+#fs_navfullcancel {
+	position:absolute;
+	right:10px;
+	top: 91px;
+	width:80px;
+	height:80px;
+	background: rgba(17,17,17,0.3) url('nav_fullsize_cancel.png') no-repeat center center;
+	display: block;
+}
+
+#fs_navclose {
+	position:absolute;
+	right:10px;
+	top: 10px;
+	width:80px;
+	height:80px;
+	background: rgba(17,17,17,0.3) url('nav_close.png') no-repeat center center;
+}
